@@ -37,3 +37,38 @@ main{
     gap: 30px;
     flex-direction: column;
 }
+.txtmenu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.divh1{
+    color: white;
+    font-size: 50px;
+}
+.divh2{
+    font-size: 30px;
+    color: white;
+}
+.imgtx{
+    width: 150px;
+}
+.imgmenu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+
+}
+.img1{
+    width: 400px;
+}
+.img2{
+    width: 400px;
+}
+.img3{
+    width: 150px;
+}
