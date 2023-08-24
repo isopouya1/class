@@ -72,3 +72,29 @@ main{
 .img3{
     width: 150px;
 }
+.new-filter{
+    width: 300px;
+}
+.new-img-1{
+    width: 700px;
+}
+.new-img-2{
+    width: 450px;
+}
+.new-h1{
+    color: white;
+}
+.new-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+}
+.new-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
