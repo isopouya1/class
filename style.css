@@ -7,8 +7,25 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+.list{
+
+}
+
+ul{
+    display: flex;
+    color: white;
+    list-style-type: none;
+    gap: 40px;
+    
+}
 main{
-    max-width: 900px;
+    max-width: 1000px;
     margin: 20px auto;
 }
 .page-4-p{
