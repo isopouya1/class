@@ -7,8 +7,23 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+
+ul{
+    display: flex;
+    color: white;
+    list-style-type: none;
+    gap: 40px;
+    
+}
 main{
-    max-width: 900px;
+    max-width: 1000px;
     margin: 20px auto;
 }
 .page-4-p{
@@ -74,6 +89,7 @@ main{
 .img3{
     width: 150px;
 }
+<<<<<<< HEAD
 .str{
     width: 100px;
     height: 100px;
@@ -84,4 +100,31 @@ main{
     outline-offset: 10px;
     outline:  3px solid #02DB8A;
     font-size: 20px;
+=======
+.new-filter{
+    width: 300px;
+}
+.new-img-1{
+    width: 700px;
+}
+.new-img-2{
+    width: 450px;
+}
+.new-h1{
+    color: white;
+}
+.new-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+}
+.new-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+>>>>>>> 377cc598c80c4aa999828cf42094cf822b1d8784
 }
